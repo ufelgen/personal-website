@@ -46,3 +46,10 @@ a:hover {
   font-weight: bold;
   text-shadow: 0 0 0.77px grey;
 }
+
+.Vancouver {
+  height: 7rem;
+  object-fit: cover;
+  object-position: 50%;
+  border-radius: 7px;
+}
