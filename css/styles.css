@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Ruluko";
+  src: url("../fonts/Ruluko-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* remove the border, just for practice */
+  border: 1px dashed;
+}
+
+body {
+  font-family: "Ruluko";
+}
+
+header {
+  background: linear-gradient(skyblue, lightblue, white);
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  color: rgba(77, 77, 77, 0.7);
+  padding: 10px;
+}
+
+nav {
+  padding: 5px;
+}
+
+a[href^="#"] {
+  padding: 0 10px 0 10px;
+}
+a {
+  text-decoration: none;
+  color: teal;
+}
+
+a:visited {
+  color: rgba(77, 77, 77, 0.7);
+}
+
+a:hover {
+  font-weight: bold;
+  text-shadow: 0 0 0.77px grey;
+}
+
+.Vancouver {
+  height: 7rem;
+  object-fit: cover;
+  object-position: 50%;
+  border-radius: 7px;
+}
