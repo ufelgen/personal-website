@@ -58,6 +58,7 @@ a:visited {
 a:hover {
   font-weight: bold;
   text-shadow: 0 0 0.77px grey;
+  cursor: pointer;
 }
 
 .Vancouver {
