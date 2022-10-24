@@ -35,7 +35,8 @@ h2 {
 
 .header-image {
   border-radius: 50%;
-  height: 50%;
+  height: auto;
+  max-width: 70%;
 }
 nav {
   padding: 0.7rem;
@@ -79,6 +80,7 @@ h3 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  filter: grayscale(100%) saturate(200%);
 }
 .last {
   margin-top: 0.7rem;
