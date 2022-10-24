@@ -11,6 +11,13 @@
   border: 1px dashed;
 }
 
+:root {
+  --viridian-green: #129490;
+  --metallic-seaweed: #087e8b;
+  --medium-violet-red: #ce1483;
+  --cadet: #546a76;
+}
+
 body {
   font-family: "Ruluko";
 }
