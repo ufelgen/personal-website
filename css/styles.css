@@ -71,7 +71,7 @@ a:hover {
 .Vancouver {
   height: 7rem;
   object-fit: cover;
-  object-position: 50%;
+  object-position: 50% 70%;
   border-radius: 7px;
 }
 
