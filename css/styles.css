@@ -74,9 +74,10 @@ section p {
 }
 
 .Vancouver {
-  height: 7rem;
+  height: 77px;
   object-fit: cover;
-  object-position: 50% 70%;
+  /*object-position: 50% 70%;*/
+  object-position: 0% 67%;
 }
 
 h3 {
