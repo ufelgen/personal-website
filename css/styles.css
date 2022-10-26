@@ -7,8 +7,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  /* remove the border, just for practice */
-  border: 1px dashed;
+  /* remove the border, just for practice 
+  border: 1px dashed;*/
 }
 
 :root {
@@ -34,12 +34,6 @@ h1 {
   color: white;
   padding-top: 5%;
   padding-bottom: 5%;
-}
-
-h2 {
-  padding-left: 0.7rem;
-  background-color: var(--metallic-seaweed);
-  color: white;
 }
 
 .header__avatar {
@@ -69,29 +63,50 @@ nav a:hover {
   cursor: pointer;
 }
 
+h2 {
+  padding: 0.2rem 0 0.2rem 0.7rem;
+  background-color: var(--metallic-seaweed);
+  color: white;
+}
+
+section p {
+  padding: 0.7rem;
+}
+
 .Vancouver {
   height: 7rem;
   object-fit: cover;
   object-position: 50% 70%;
-  border-radius: 7px;
 }
 
 h3 {
   display: block;
-  color: var(--metallic-seaweed);
-  border-color: var(--metallic-seaweed);
+  background-color: var(--metallic-seaweed);
+  color: white;
   font-weight: bolder;
-  padding-left: 0.7rem;
+  padding: 0.2rem 0 0.2rem 0.7rem;
 }
 .logo {
   height: 1.7rem;
+  filter: grayscale(100%) saturate(200%);
+  padding-top: 7px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.contact {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  filter: grayscale(100%) saturate(200%);
-  padding-top: 7px;
 }
 .last {
   margin-top: 0.7rem;
+}
+
+.vancouver__details {
+  padding-left: 0.7rem;
+  padding-bottom: 2.7rem;
 }
