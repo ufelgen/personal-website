@@ -4,10 +4,12 @@ header {
   padding: 0.7rem;
   display: grid;
   grid-template-columns: 1fr 3fr;
+  place-items: center;
   grid-template-areas:
     "img h1"
     "img nav"
-    "button nav";
+    "img nav"
+    ". button";
 }
 
 h1 {
@@ -20,7 +22,7 @@ h1 {
 .header__avatar {
   border-radius: 50%;
   height: auto;
-  width: 30vh;
+  width: 37vh;
   grid-row: span 2;
   grid-area: img;
 }
@@ -36,6 +38,7 @@ nav a {
   padding: 0 10px 0 10px;
   text-decoration: none;
   color: var(--metallic-seaweed);
+  text-shadow: 0 0 2.77px white;
 }
 
 nav a:visited {
@@ -44,7 +47,7 @@ nav a:visited {
 
 nav a:hover {
   font-weight: bold;
-  text-shadow: 0 0 2.77px white;
+  text-shadow: 0 0 5.77px white;
   cursor: pointer;
 }
 
@@ -53,7 +56,7 @@ header button {
   background-color: var(--metallic-seaweed);
   color: white;
   font-family: "Ruluko";
-  padding: 3px;
+  padding: 3px 30px 3px 30px;
   border: none;
   margin-top: 7px;
 }
