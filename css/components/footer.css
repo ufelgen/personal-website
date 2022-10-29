@@ -1,0 +1,42 @@
+.Vancouver {
+  height: 77px;
+  object-fit: cover;
+  object-position: 0% 67%;
+}
+
+h3 {
+  display: block;
+  background-color: var(--metallic-seaweed);
+  color: white;
+  font-weight: bolder;
+  padding: 0.2rem 0 0.2rem 0.7rem;
+}
+.logo {
+  height: 1.7rem;
+  filter: grayscale(100%) saturate(200%);
+  padding-top: 7px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.contact {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.last {
+  margin-top: 0.7rem;
+}
+
+.vancouver__details {
+  padding-left: 0.7rem;
+  padding-bottom: 2.7rem;
+}
+
+details a {
+  text-decoration: none;
+  color: var(--metallic-seaweed);
+}
