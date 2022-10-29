@@ -23,7 +23,7 @@ body {
 }
 
 header {
-  background: linear-gradient(var(--metallic-seaweed), white);
+  background: linear-gradient(var(--metallic-seaweed) 30%, white);
   text-align: center;
   padding: 0.7rem;
   display: grid;
@@ -45,6 +45,8 @@ h1 {
 nav {
   padding: 0.7rem;
   grid-column-start: 2;
+  display: flex;
+  flex-direction: column;
 }
 
 nav a {
@@ -109,4 +111,9 @@ h3 {
 .vancouver__details {
   padding-left: 0.7rem;
   padding-bottom: 2.7rem;
+}
+
+details a {
+  text-decoration: none;
+  color: var(--metallic-seaweed);
 }
