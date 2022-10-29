@@ -1,3 +1,13 @@
+// dark mode button
+
+const buttonDarkMode = document.querySelector('[data-js="buttonDarkMode"]');
+const main = document.querySelector('[data-js="main"]');
+
+buttonDarkMode.addEventListener("click", () => {
+  main.classList.toggle("darkMode");
+});
+
+// buttons for Vancouver image in footer
 const vancouverImage = document.querySelector(".Vancouver");
 const buttonGray = document.querySelector('[data-js="buttonGrayscale"]');
 const buttonFade = document.querySelector('[data-js="buttonFade"]');
