@@ -22,9 +22,16 @@ h1 {
 .header__avatar {
   border-radius: 50%;
   height: auto;
-  width: 37vw;
+  max-width: 25vw;
   grid-area: img;
 }
+
+@media (min-width: 800px) {
+  .header__avatar {
+    max-width: 17vw;
+  }
+}
+
 nav {
   padding: 0.7rem;
   grid-column-start: 2;
