@@ -1,0 +1,83 @@
+h3 {
+  display: block;
+  background-color: var(--metallic-seaweed);
+  color: white;
+  font-weight: bolder;
+  padding: 0.2rem 0 0.2rem 0.7rem;
+}
+
+.contact {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  height: 1.7rem;
+  filter: grayscale(100%) saturate(200%);
+  padding-top: 7px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.last {
+  margin-top: 0.7rem;
+}
+
+.Vancouver {
+  height: 77px;
+  object-fit: cover;
+  object-position: 0% 67%;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.fade {
+  filter: opacity(77%);
+}
+
+.contrast {
+  filter: contrast(177%);
+}
+
+.blur {
+  filter: blur(2px);
+}
+
+.saturation {
+  filter: saturate(177%);
+}
+
+.vancouver__details {
+  padding-left: 0.7rem;
+  padding-bottom: 7.7rem;
+}
+
+details a {
+  text-decoration: none;
+  color: var(--metallic-seaweed);
+}
+
+details p {
+  margin-left: -11px;
+}
+
+details button {
+  color: var(--metallic-seaweed);
+  background-color: white;
+  border-color: var(--metallic-seaweed);
+  border-radius: 7%;
+  padding: 5px;
+  margin: 0 7px 0 -1px;
+}
+
+details button:hover {
+  color: white;
+  background-color: var(--metallic-seaweed);
+  cursor: pointer;
+}
