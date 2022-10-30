@@ -22,8 +22,7 @@ h1 {
 .header__avatar {
   border-radius: 50%;
   height: auto;
-  width: 37vh;
-  grid-row: span 2;
+  width: 37vw;
   grid-area: img;
 }
 nav {
