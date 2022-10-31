@@ -18,22 +18,37 @@ const buttonOriginal = document.querySelector('[data-js="buttonOriginal"]');
 
 buttonGray.addEventListener("click", () => {
   vancouverImage.classList.add("grayscale");
+  vancouverImage.classList.remove("fade", "contrast", "blur", "saturation");
 });
 
 buttonFade.addEventListener("click", () => {
   vancouverImage.classList.add("fade");
+  vancouverImage.classList.remove(
+    "grayscale",
+    "contrast",
+    "blur",
+    "saturation"
+  );
 });
 
 buttonContrast.addEventListener("click", () => {
   vancouverImage.classList.add("contrast");
+  vancouverImage.classList.remove("grayscale", "fade", "blur", "saturation");
 });
 
 buttonBlur.addEventListener("click", () => {
   vancouverImage.classList.add("blur");
+  vancouverImage.classList.remove(
+    "grayscale",
+    "fade",
+    "contrast",
+    "saturation"
+  );
 });
 
 buttonSaturation.addEventListener("click", () => {
   vancouverImage.classList.add("saturation");
+  vancouverImage.classList.remove("grayscale", "fade", "contrast", "blur");
 });
 
 buttonOriginal.addEventListener("click", () => {
