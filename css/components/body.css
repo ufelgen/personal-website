@@ -20,14 +20,14 @@ article p {
 
 .blog-post__container {
   display: flex;
-  flex-flow: row-reverse wrap;
+  flex-flow: row-reverse wrap-reverse;
   justify-content: space-between;
   align-items: space-between;
 }
 
 .blog-post {
-  height: 7rem;
-  width: 7rem;
+  height: 8rem;
+  width: 8rem;
   text-align: center;
   background-color: lightgray;
   border: 2px solid var(--metallic-seaweed);
