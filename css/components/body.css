@@ -18,6 +18,37 @@ article p {
   align-items: center;
 }
 
+.blog-post__container {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.blog-post {
+  height: 7rem;
+  width: 7rem;
+  text-align: center;
+  background-color: lightgray;
+  border: 2px solid var(--metallic-seaweed);
+  border-radius: 5%;
+  padding: 7px;
+  margin: 7px;
+}
+
+.blog-post a {
+  text-decoration: none;
+  color: var(--metallic-seaweed);
+  font-weight: bold;
+}
+
+.blog-post a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 0 5.77px white;
+  cursor: pointer;
+}
+
 .darkMode {
   background-color: black;
   color: white;
