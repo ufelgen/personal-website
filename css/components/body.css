@@ -1,16 +1,66 @@
-h2 {
+main h2 {
   padding: 0.2rem 0 0.2rem 0.7rem;
   background-color: var(--metallic-seaweed);
   color: white;
 }
 
-article {
+.about-me__container {
+  display: grid;
+  grid-template-columns: 7fr, 1fr;
+  grid-template-areas:
+    "me one"
+    "me two"
+    "me three"
+    "me four"
+    "me five";
+}
+
+.about-me__container article {
   border: 1px solid var(--metallic-seaweed);
-  height: 7rem;
+  height: 350px;
   overflow: scroll;
   overflow-y: scroll;
   overflow-x: hidden;
   margin: 0.7rem;
+  grid-area: me;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+  margin: 0.7rem;
+}
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.logo {
+  height: 45px;
+  filter: grayscale(100%) saturate(200%);
+  padding: 0.2rem;
+  border: solid 1px var(--metallic-seaweed);
+}
+
+.logo a {
+  text-decoration: none;
 }
 
 article p {
@@ -21,7 +71,7 @@ article p {
 .blog-post__container {
   display: flex;
   flex-flow: row-reverse wrap-reverse;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: space-between;
 }
 
@@ -30,7 +80,7 @@ article p {
   width: 8rem;
   text-align: center;
   background-color: lightgray;
-  border: 2px solid var(--metallic-seaweed);
+  border: 1px solid var(--metallic-seaweed);
   border-radius: 5%;
   padding: 7px;
   margin: 7px;
